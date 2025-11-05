@@ -12,8 +12,7 @@ It serves as a demo front-end for showcasing teams, innovation labs, and infrast
 - 🧭 **Multi-page Navigation** — Home, About, Expertise, Projects, and Stories  
 - 🎞️ **Interactive Animations** — hero shimmer, hover lift effects, and smooth fades  
 - 📱 **Responsive Design** — optimized for desktop and mobile  
-- 🧩 **Modular Components** — easy to customize, extend, and reuse  
-- 🌐 **Offline Ready** — all assets stored locally; no APIs or CDNs required  
+- 🧩 **Modular Components** — easy to customize, extend, and reuse 
 
 
 ---
@@ -27,18 +26,6 @@ npm install
 # 2. Start the development server
 npm run dev
 ```
-
-Vite will open the site at [http://localhost:5173](http://localhost:5173) by default.
-
----
-
-## 🌐 Offline-Ready Design
-
-- All images, fonts, and data files are stored locally.  
-- No external APIs, CDNs, or online dependencies are required.  
-- Uses system fonts for fallback performance, ensuring it works completely offline.  
-
----
 
 ## 🎨 Theming & Styling
 
