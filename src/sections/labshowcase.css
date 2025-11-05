@@ -1,0 +1,90 @@
+.lab-showcase {
+  padding: 5rem 0;
+  background: var(--bg);
+  position: relative;
+}
+
+.lab-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.lab-card {
+  background: var(--bg-2);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--card-shadow);
+  transition: all var(--transition);
+  position: relative;
+}
+
+.lab-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--card-shadow), 0 16px 32px rgba(0,0,0,0.1);
+}
+
+.lab-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.project-icon {
+  width: 40px;
+  height: 40px;
+  color: var(--accent);
+}
+
+.status-badge {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-sm);
+  background: var(--bg-3);
+  color: var(--accent);
+}
+
+.lab-card h4 {
+  font-size: 1.4rem;
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}
+
+.lab-card p {
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-sm);
+  background: var(--bg-3);
+  color: var(--muted);
+}
+
+@media (max-width: 900px) {
+  .lab-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .lab-showcase {
+    padding: 3rem 0;
+  }
+  
+  .lab-card {
+    padding: 1.5rem;
+  }
+}

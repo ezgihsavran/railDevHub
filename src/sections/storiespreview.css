@@ -1,0 +1,117 @@
+.stories-preview {
+  padding: 5rem 0;
+  background: var(--bg);
+  position: relative;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.story-card {
+  background: var(--bg-2);
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  position: relative;
+  box-shadow: var(--card-shadow);
+  transition: all var(--transition);
+  overflow: hidden;
+}
+
+.story-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--card-shadow), 0 16px 32px rgba(0,0,0,0.1);
+}
+
+.story-tag {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background: var(--bg);
+  color: var(--accent);
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.story-card h3 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.story-card h4 {
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.story-card p {
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.story-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.story-route {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.story-route svg {
+  color: var(--accent);
+}
+
+.read-more {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all var(--transition-fast);
+}
+
+.read-more:hover {
+  gap: 0.75rem;
+}
+
+.read-more svg {
+  transition: transform var(--transition-fast);
+}
+
+.read-more:hover svg {
+  transform: translateX(4px);
+}
+
+.stories-cta {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+@media (max-width: 900px) {
+  .story-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .stories-preview {
+    padding: 3rem 0;
+  }
+}

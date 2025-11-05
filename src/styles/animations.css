@@ -1,0 +1,15 @@
+/* Simple keyframes for moving light / shimmer */
+@keyframes rail-shimmer {
+  0% { transform: translateX(-30%); opacity: 0 }
+  20% { opacity: 0.35 }
+  50% { transform: translateX(40%); opacity: 0.6 }
+  100% { transform: translateX(140%); opacity: 0 }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(10px) }
+  to { opacity: 1; transform: translateY(0) }
+}
+
+/* Utility classes */
+.fade-up{animation:fade-up var(--transition) ease both}
