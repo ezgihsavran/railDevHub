@@ -15,13 +15,13 @@ export default function LabShowcase(){
       tech: ['NLP', 'ML', 'Voice']
     },
     {
-      title: 'Blockchain Safety Records_i CHANGED',
+      title: 'EZG Blockchain Safety Records_i CHANGED AGAIN',
       description: 'Immutable safety record system using blockchain',
       status: 'research',
       tech: ['Blockchain', 'Smart Contracts']
     },
     {
-      title: 'Carbon-Neutral Routing_l CHANGED',
+      title: 'EZG Carbon-Neutral Routing_l CHANGED AGAIN',
       description: 'Optimized routing algorithms for minimal environmental impact',
       status: 'development',
       tech: ['Algorithms', 'Green Tech']
