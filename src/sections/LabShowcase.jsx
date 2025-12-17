@@ -3,9 +3,9 @@ import React from 'react'
 export default function LabShowcase(){
   const items = [
     {
-      title: 'DeğiştirildiBYezgi_5',
-      description: 'AÇIKLAMAby EZGİ DEĞİŞTİRİLDİ_6',
-      status: 'CHANGEDby ezgi',
+      title: 'DeğiştirildiBYezgi',
+      description: 'AÇIKLAMAby EZGİ DEĞİŞTİRİLDİ',
+      status: 'CHANGEDby ezgi --- changed again',
       tech: ['IoT', 'AI', 'Cloud']
     },
     {
