@@ -5,7 +5,7 @@ export default function LabShowcase(){
     {
       title: 'DeğiştirildiBYezgi',
       description: 'AÇIKLAMAby EZGİ DEĞİŞTİRİLDİ',
-      status: 'CHANGEDby ezgi',
+      status: 'CHANGEDby ezgi --- changed again',
       tech: ['IoT', 'AI', 'Cloud']
     },
     {
