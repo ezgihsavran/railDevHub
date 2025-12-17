@@ -15,7 +15,13 @@ export default function LabShowcase(){
       tech: ['NLP', 'ML', 'Voice']
     },
     {
-      title: 'Blockchain Safety Records_i',
+      title: 'Blockchain Safety Records_rechanged',
+      description: 'Immutable safety record system using blockchain',
+      status: 'research1',
+      tech: ['Blockchain', 'Smart Contracts']
+    },
+{
+      title: 'Blockchain Safety Records_2',
       description: 'Immutable safety record system using blockchain',
       status: 'research',
       tech: ['Blockchain', 'Smart Contracts']
