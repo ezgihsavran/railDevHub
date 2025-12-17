@@ -3,8 +3,8 @@ import React from 'react'
 export default function LabShowcase(){
   const items = [
     {
-      title: 'Smart Track Sensors',
-      description: 'IoT sensors for real-time track condition monitoring',
+      title: 'Smart Track Sensors -edited',
+      description: 'IoT sensors for real-time track condition monitoring -edited',
       status: 'testing',
       tech: ['IoT', 'AI', 'Cloud']
     },
