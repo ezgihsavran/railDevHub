@@ -27,7 +27,7 @@ export default function LabShowcase(){
       tech: ['Blockchain', 'Smart Contracts']
     },
     {
-      title: 'Carbon-Neutral Routing_l',
+      title: 'Carbon-Neutral Routing_l CHANGED',
       description: 'Optimized routing algorithms for minimal environmental impact',
       status: 'development',
       tech: ['Algorithms', 'Green Tech']
