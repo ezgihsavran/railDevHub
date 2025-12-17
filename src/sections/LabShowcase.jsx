@@ -3,8 +3,8 @@ import React from 'react'
 export default function LabShowcase(){
   const items = [
     {
-      title: 'DeğiştirildiBYezgi',
-      description: 'AÇIKLAMAby EZGİ DEĞİŞTİRİLDİ',
+      title: 'DeğiştirildiBYezgi_5',
+      description: 'AÇIKLAMAby EZGİ DEĞİŞTİRİLDİ_6',
       status: 'CHANGEDby ezgi',
       tech: ['IoT', 'AI', 'Cloud']
     },
@@ -15,13 +15,13 @@ export default function LabShowcase(){
       tech: ['NLP', 'ML', 'Voice']
     },
     {
-      title: 'Blockchain Safety Records',
+      title: 'Blockchain Safety Records_i',
       description: 'Immutable safety record system using blockchain',
       status: 'research',
       tech: ['Blockchain', 'Smart Contracts']
     },
     {
-      title: 'Carbon-Neutral Routing',
+      title: 'Carbon-Neutral Routing_l',
       description: 'Optimized routing algorithms for minimal environmental impact',
       status: 'development',
       tech: ['Algorithms', 'Green Tech']
